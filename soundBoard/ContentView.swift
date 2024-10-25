@@ -2,7 +2,7 @@ import SwiftUI
 import AVFoundation
 
 struct ContentView: View {
-    let soundFiles = ["Marco Kotzt"] // Namen der Audio-Dateien ohne Dateiendung
+    let soundFiles = ["Marco Kotzt","Awooo","Ah gang"] // Namen der Audio-Dateien ohne Dateiendung
     @State private var audioPlayer: AVAudioPlayer?
 
     var body: some View {
